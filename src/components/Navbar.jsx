@@ -46,9 +46,16 @@ const Navbar = () => {
     >
       <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         
-        <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '10px', color: scrolled ? 'var(--color-primary)' : 'white', fontWeight: '600', fontSize: '1.4rem', fontFamily: 'var(--font-heading)', letterSpacing: '-0.02em', transition: 'color 0.4s ease' }}>
-          <BookOpen size={28} color="var(--color-accent)" />
-          {siteData.global.title}
+        <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '10px', color: scrolled ? 'var(--color-primary)' : 'white', textDecoration: 'none', transition: 'color 0.4s ease' }}>
+          <BookOpen size={28} color="var(--color-accent)" style={{ flexShrink: 0 }} />
+          <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+            <span style={{ fontWeight: '600', fontSize: '1.4rem', fontFamily: 'var(--font-heading)', letterSpacing: '-0.02em', lineHeight: '1.1' }}>
+              {siteData.global.title}
+            </span>
+            <span style={{ fontSize: '0.65rem', fontWeight: '400', letterSpacing: '0.5px', opacity: 0.8, marginTop: '2px', textTransform: 'uppercase' }}>
+              Bilimde Etkin, Toplumda Yetkin
+            </span>
+          </div>
         </Link>
 
         {/* Desktop Menu */}

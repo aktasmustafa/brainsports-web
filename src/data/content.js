@@ -10,7 +10,7 @@ export const siteData = {
     badge: "TÜBİTAK 1001",
     title: "Göz İzleme Teknolojisi ve Galvanik Cilt Tepkisiyle Birleştirilmiş Elektroensefalografik Sinyaller Kullanılarak Futbolcuların Fiziksel Performans Düzeylerini Belirleyen Makine Öğrenme Temelli Tahmin Modelinin Geliştirilmesi",
     description: "Karadeniz Teknik Üniversitesi, Trabzon Üniversitesi ve Recep Tayyip Erdoğan Üniversitesi'nden araştırmacıların ortak çalışması.",
-    image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=2071&q=80", // Medical/Brain scanning aesthetic
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=2000",
     sections: [
       {
         id: "amacy",
@@ -24,12 +24,12 @@ export const siteData = {
       }
     ],
     team: [
-      { name: "Dr. Öğr. Üyesi Murat Emirzeoğlu", role: "Proje Yürütücüsü", institution: "KTÜ", image: "https://ui-avatars.com/api/?name=Murat+Emirzeoğlu&background=0B2447&color=fff&size=200" },
-      { name: "Prof. Dr. Önder Aydemir", role: "Araştırmacı", institution: "KTÜ", image: "https://ui-avatars.com/api/?name=Önder+Aydemir&background=0B2447&color=fff&size=200" },
-      { name: "Dr. Öğr. Üyesi Abdülkadir Birol", role: "Araştırmacı", institution: "Trabzon Üniversitesi", image: "https://ui-avatars.com/api/?name=Abdülkadir+Birol&background=0B2447&color=fff&size=200" },
-      { name: "Dr. Öğr. Üyesi Ebru Ergün", role: "Araştırmacı", institution: "RTEÜ", image: "https://ui-avatars.com/api/?name=Ebru+Ergün&background=0B2447&color=fff&size=200" },
-      { name: "Arş. Gör. Fatih Aydın", role: "Proje Bursiyeri", institution: "KTÜ", image: "https://ui-avatars.com/api/?name=Fatih+Aydın&background=0B2447&color=fff&size=200" },
-      { name: "Mustafa Taha Yıldırmış", role: "Proje Bursiyeri (YL)", institution: "KTÜ", image: "https://ui-avatars.com/api/?name=Mustafa+Taha+Yıldırmış&background=0B2447&color=fff&size=200" }
+      { name: "Dr. Öğr. Üyesi Murat Emirzeoğlu", role: "Proje Yürütücüsü", institution: "KTÜ", image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=500", socials: { twitter: "#", linkedin: "#", mail: "#" } },
+      { name: "Prof. Dr. Önder Aydemir", role: "Araştırmacı", institution: "KTÜ", image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=500", socials: { twitter: "#", linkedin: "#", mail: "#" } },
+      { name: "Dr. Öğr. Üyesi Abdülkadir Birol", role: "Araştırmacı", institution: "Trabzon Üniversitesi", image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=500", socials: { twitter: "#", linkedin: "#", mail: "#" } },
+      { name: "Dr. Öğr. Üyesi Ebru Ergün", role: "Araştırmacı", institution: "RTEÜ", image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=500", socials: { twitter: "#", linkedin: "#", mail: "#" } },
+      { name: "Arş. Gör. Fatih Aydın", role: "Proje Bursiyeri", institution: "KTÜ", image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=500", socials: { twitter: "#", linkedin: "#", mail: "#" } },
+      { name: "Mustafa Taha Yıldırmış", role: "Proje Bursiyeri (YL)", institution: "KTÜ", image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=500", socials: { twitter: "#", linkedin: "#", mail: "#" } }
     ]
   },
   about: {
@@ -42,28 +42,28 @@ export const siteData = {
       title: "Elektroensefalografi (EEG)",
       shortDesc: "Beynin elektriksel aktivitesini ileri teknoloji ile analiz ederek dikkat, odaklanma ve reaksiyon süreçlerini değerlendirir.",
       content: "Elektroensefalografi (EEG), beynin elektriksel aktivitesini ileri teknoloji ile analiz ederek dikkat, odaklanma, reaksiyon ve bilişsel performans süreçlerini bilimsel verilerle değerlendiren nörofizyolojik ölçüm yöntemidir. Uluslararası 10-20 sistemine göre konumlandırılan taşınabilir EEG elektrotları, sporcuların baskı altında beyin dalgalarını milisaniyeler düzeyinde kaydeder. Amacımız sadece fiziksel eforu değil; baskı altında 'en doğru kararı verebilen' beyni sayısal verilerle ortaya koymaktır.",
-      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=2071&q=80" // Neuroscience/brain aesthetic
+      image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=800"
     },
     {
       id: "eda",
       title: "Elektrodermal Aktivite (EDA)",
       shortDesc: "Bireylerin stres seviyeleri ve otonom sinir sistemi tepkilerini ölçerek performans analizinde önemli veriler sunar.",
       content: "Galvanik Cilt Tepkisi (GSR) olarak da bilinen Elektrodermal aktivite (EDA) ölçümleri, sporcunun otonom sinir sistemi tepkilerini ve duygusal uyarılmasını anlık olarak kaydeder. Kritik anlarda yaşanan ani stres yükselişlerinin fiziksel uygunluk performansı ve göz takip sistemleri üzerindeki etkileri birlikte ele alınmaktadır. Bu sayede sporcunun 'görünmez stres' seviyeleri rakamsal bir veriye dönüştürülür.",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" // Medical sensor / biometric aesthetic
+      image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800"
     },
     {
       id: "goz-takip",
       title: "Göz Takip Sistemi",
       shortDesc: "Dikkat, odaklanma ve bilişsel yük gibi süreçlerin değerlendirilmesinde kritik rol oynar.",
       content: "Göz takip (Eye Tracking) sistemleri, dikkat, odaklanma ve bilişsel yük gibi bilişsel süreçlerin değerlendirilmesinde kritik rol oynar. Elit bir futbolcu ile amatör bir oyuncu arasındaki en büyük farklardan biri, topa vurmadan önce veya dar alanda paslaşırken sahayı tarama (visual scanning) hızlarıdır. Özel sensörlü cihazlarımızla sporcuların saha içindeki görsel tarama stratejilerini ve odaklanma sürelerini ölçerek, refleks ve karar mekanizmalarını sayısal verilere döküyoruz.",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" // Eye tracking/vision aesthetic
+      image: "https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&q=80&w=800"
     },
     {
       id: "fiziksel-uygunluk",
       title: "Fiziksel Uygunluk",
       shortDesc: "Sporcunun genel performansını, kuvvetini ve dayanıklılığını ölçen kapsamlı test bataryaları.",
       content: "Nörolojik verilerin bir anlam ifade edebilmesi için fiziksel kapasite ile birleşmesi şarttır. Laboratuvarımızda, sporcunun potansiyelini maksimize etmek için özel olarak tasarlanmış test bataryaları kullanılmaktadır. Sporcunun kassal kuvvetinden asimetrik dengesizliklerine, patlayıcı gücünden anaerobik eşiğine kadar her detayı standart ve teknolojik testlerle milimetrik olarak ölçüyoruz. Bu veriler, beyinden gelen sinyallerle kasın gerçek çıktısı arasındaki bağlantıyı çözmemizi sağlar.",
-      image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" // Athlete/Sports performance aesthetic
+      image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=800"
     }
   ],
   fitnessTests: [

@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Twitter, Linkedin, Mail } from 'lucide-react';
 import { siteData } from '../data/content';
 
 const Project = () => {
@@ -84,7 +85,20 @@ const Project = () => {
                 </div>
                 <h3 style={{ fontSize: '1.3rem', marginBottom: '0.25rem', color: 'var(--color-primary)' }}>{member.name}</h3>
                 <div style={{ color: 'var(--color-accent)', fontWeight: '500', fontSize: '0.9rem', marginBottom: '0.5rem' }}>{member.role}</div>
-                <p style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>{member.institution}</p>
+                <p style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem', marginBottom: '1rem' }}>{member.institution}</p>
+                {member.socials && (
+                  <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', marginTop: '0.5rem' }}>
+                    <a href={member.socials.twitter} style={{ color: 'var(--color-text-muted)', transition: 'color 0.2s ease' }} onMouseOver={(e) => e.currentTarget.style.color = 'var(--color-primary)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--color-text-muted)'}>
+                      <Twitter size={18} />
+                    </a>
+                    <a href={member.socials.linkedin} style={{ color: 'var(--color-text-muted)', transition: 'color 0.2s ease' }} onMouseOver={(e) => e.currentTarget.style.color = 'var(--color-primary)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--color-text-muted)'}>
+                      <Linkedin size={18} />
+                    </a>
+                    <a href={member.socials.mail} style={{ color: 'var(--color-text-muted)', transition: 'color 0.2s ease' }} onMouseOver={(e) => e.currentTarget.style.color = 'var(--color-primary)'} onMouseOut={(e) => e.currentTarget.style.color = 'var(--color-text-muted)'}>
+                      <Mail size={18} />
+                    </a>
+                  </div>
+                )}
               </motion.div>
             ))}
           </motion.div>

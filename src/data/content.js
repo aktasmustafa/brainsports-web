@@ -10,7 +10,7 @@ export const siteData = {
     badge: "TÜBİTAK 1001",
     title: "Göz İzleme Teknolojisi ve Galvanik Cilt Tepkisiyle Birleştirilmiş Elektroensefalografik Sinyaller Kullanılarak Futbolcuların Fiziksel Performans Düzeylerini Belirleyen Makine Öğrenme Temelli Tahmin Modelinin Geliştirilmesi",
     description: "Karadeniz Teknik Üniversitesi, Trabzon Üniversitesi ve Recep Tayyip Erdoğan Üniversitesi'nden araştırmacıların ortak çalışması.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=2000",
+    image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=2071&q=80",
     sections: [
       {
         id: "amacy",
@@ -24,12 +24,12 @@ export const siteData = {
       }
     ],
     team: [
-      { name: "Dr. Öğr. Üyesi Murat Emirzeoğlu", role: "Proje Yürütücüsü", institution: "KTÜ", image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=500", socials: { twitter: "#", linkedin: "#", mail: "#" } },
-      { name: "Prof. Dr. Önder Aydemir", role: "Araştırmacı", institution: "KTÜ", image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=500", socials: { twitter: "#", linkedin: "#", mail: "#" } },
-      { name: "Dr. Öğr. Üyesi Abdülkadir Birol", role: "Araştırmacı", institution: "Trabzon Üniversitesi", image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=500", socials: { twitter: "#", linkedin: "#", mail: "#" } },
-      { name: "Dr. Öğr. Üyesi Ebru Ergün", role: "Araştırmacı", institution: "RTEÜ", image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=500", socials: { twitter: "#", linkedin: "#", mail: "#" } },
-      { name: "Arş. Gör. Fatih Aydın", role: "Proje Bursiyeri", institution: "KTÜ", image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=500", socials: { twitter: "#", linkedin: "#", mail: "#" } },
-      { name: "Mustafa Taha Yıldırmış", role: "Proje Bursiyeri (YL)", institution: "KTÜ", image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=500", socials: { twitter: "#", linkedin: "#", mail: "#" } }
+      { name: "Dr. Öğr. Üyesi Murat Emirzeoğlu", role: "Proje Yürütücüsü", institution: "KTÜ Sağlık Bilimleri Fizyoterapi ve Rehabilitasyon", image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=500", socials: { twitter: "#", linkedin: "#", mail: "#" } },
+      { name: "Prof. Dr. Önder Aydemir", role: "Araştırmacı", institution: "KTÜ Mühendislik Elektrik-Elektronik", image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=500", socials: { twitter: "#", linkedin: "#", mail: "#" } },
+      { name: "Dr. Öğr. Üyesi Abdülkadir Birol", role: "Araştırmacı", institution: "Trabzon Üniversitesi Spor Bilimleri Antrenörlük", image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=500", socials: { twitter: "#", linkedin: "#", mail: "#" } },
+      { name: "Dr. Öğr. Üyesi Ebru Ergün", role: "Araştırmacı", institution: "RTEÜ Mimarlık ve Mühendislik Elektrik-Elektronik", image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=500", socials: { twitter: "#", linkedin: "#", mail: "#" } },
+      { name: "Arş. Gör. Fatih Aydın", role: "Proje Bursiyeri", institution: "KTÜ Mühendislik Elektrik-Elektronik", image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=500", socials: { twitter: "#", linkedin: "#", mail: "#" } },
+      { name: "Mustafa Taha Yıldırmış", role: "Proje Bursiyeri (YL)", institution: "KTÜ Sağlık Bilimleri Fizyoloji", image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=500", socials: { twitter: "#", linkedin: "#", mail: "#" } }
     ]
   },
   about: {
